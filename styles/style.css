@@ -1,0 +1,56 @@
+/* general styling */
+*{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.theme-color {
+    color: rgb(157, 19, 211);
+}
+ul {
+    list-style: none;
+}
+
+
+/* checkmark icon in the packages section */
+.package-list::before  {
+    content: "\f058";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 1.3rem;
+    color: rgb(100, 16, 196);
+    position: relative;
+    vertical-align: middle;
+    margin-right: 1rem;
+    background-color: rgba(173, 142, 185, 0.3);
+    border-radius: 50%;
+  }
+
+/* special package styling */
+.hot-package {
+    background-color: rgb(198, 35, 212);
+    border-radius: 10%;
+    box-shadow: 4px 4px 10px 5px rgba(198, 35, 212, 0.5);
+}
+
+
+/* some styling of elements to meet the theme color */
+.cyrus-btn-carousel {
+    background-color: rgb(157, 19, 211);
+}
+
+.cyrus-btn-carousel a{
+    text-decoration: none;
+    color: white;
+}
+
+.cyrus-btn,.cyrus-back {
+    background-color: rgba(157, 19, 211, 0.3);
+}
+
+.subscribe {
+    font-family: 'Sedgwick Ave', cursive;
+    color: rgb(157, 19, 211);
+}
+
+
