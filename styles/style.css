@@ -53,4 +53,16 @@ ul {
     color: rgb(157, 19, 211);
 }
 
+.accordion-button {
+    color: rgb(157, 19, 211);
+    background-color: rgba(173, 142, 185, 0.3);
+}
 
+.accordion-item {
+    border: 1px solid rgba(157, 19, 211, 0.3);
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: rgb(157, 19, 211);
+}
